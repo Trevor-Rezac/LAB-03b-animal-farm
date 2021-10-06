@@ -33,3 +33,10 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+.animal-image {
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+
+}
