@@ -38,5 +38,6 @@ footer {
     width: 200px;
     height: 200px;
     gap: 20px;
+    cursor: pointer;
 
 }
