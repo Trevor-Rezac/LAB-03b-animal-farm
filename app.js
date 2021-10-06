@@ -26,7 +26,7 @@ catImage.addEventListener('click', () => {
 dogImage.addEventListener('click', () => {
     dogSound.play();
     dogClicks = dogClicks + 1;
-    console.log('dog clicks is now', dogClicks)
+    console.log('dog clicks is now', dogClicks);
 });
 
 horseImage.addEventListener('click', () => {
