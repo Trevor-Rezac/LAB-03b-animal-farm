@@ -23,7 +23,6 @@ catImage.addEventListener('click', () => {
     console.log('cat clicks is now', catClicks);
 });
 
-
 dogImage.addEventListener('click', () => {
     dogSound.play();
     dogClicks = dogClicks + 1;
@@ -36,3 +35,20 @@ horseImage.addEventListener('click', () => {
     console.log('horse clicks is now', horseClicks);
 });
 
+document.addEventListener('keyup', (event) => {
+    if (event.key === 'c') {
+        catSound.play();
+    }
+});
+
+document.addEventListener('keyup', (event) => {
+    if (event.key === 'd') {
+        dogSound.play();
+    }
+});
+
+document.addEventListener('keyup', (event) => {
+    if (event.key === 'h') {
+        horseSound.play();
+    }
+});
