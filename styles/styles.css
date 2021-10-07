@@ -8,6 +8,8 @@ body {
 
 main {
     padding: 30px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 header {
